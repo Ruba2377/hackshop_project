@@ -11,7 +11,7 @@ def guessing_game():
         You have unlimited attempts, and I'll give you a hint if you're too high or too low.
     """)
 
-    guess = st.number_input("Enter your guess:", min_value=1, max_value=100, step=1)
+    guess = st.number_input("Enter your guess:", min_value=1, max_value=10, step=1)
 
     if st.button("Check Guess"):
         if guess < secret_number:
