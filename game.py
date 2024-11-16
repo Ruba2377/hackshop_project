@@ -7,7 +7,7 @@ def guessing_game():
     st.title("Number Guessing Game")
 
     st.write("""
-        I'm thinking of a number between 1 and 100. Try to guess it!
+        I'm thinking of a number between 1 and 10. Try to guess it!
         You have unlimited attempts, and I'll give you a hint if you're too high or too low.
     """)
 
@@ -23,7 +23,7 @@ def guessing_game():
             st.balloons()  
 
     if st.button("Start New Game"):
-        secret_number = random.randint(1, 100) 
+        secret_number = random.randint(1, 10) 
 
 if __name__ == "__main__":
     guessing_game()
