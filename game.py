@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 st.title("Simple Number Guessing Game")
-st.write("I have selected a random number between 1 and 100. Try to guess it!")
+st.write("I have selected a random number between 1 and 10. Try to guess it!")
 random_number = random.randint(1, 10)
 guess = st.number_input("Enter your guess:", min_value=1, max_value=10, step=1)
 if st.button("Submit Guess"):
