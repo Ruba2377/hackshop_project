@@ -11,4 +11,3 @@ elif guess<number:
     print("Try Higher!!")
 else:
     print("You Lost!!!")
-break
