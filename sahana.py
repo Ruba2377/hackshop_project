@@ -4,7 +4,6 @@ for x in range(3):
     guess=int(input("Take a guess from 1 to 10:"))
 if guess==number:
     print("you won!!")
-    break
 elif guess>number:
     print("Try lower!!")
 elif guess<number:
